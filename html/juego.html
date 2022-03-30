@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poesía de nevera</title>
+    <script src="https://kit.fontawesome.com/1f90df3c86.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../estilos.css">
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/interact.js/1.0.2/interact.min.js"></script>
+    <script src="../script.js" defer></script>
+</head>
+<body>
+  <a href="menu.html" id="home"><i class="fa-solid fa-house"></i></a>
+    <div id="cajas">
+        <div id="instrucciones" class="window">
+            <p>Arrastra la palabra correcta para completar este poema de Federico García Lorca. Es un romance, así que cada verso tiene 8 sílabas y la rima es asonante.</p>
+          <div id="popupfoot"> <a href="#" class="close iman">empezar</a></div>
+        </div>
+        <div id="mask"></div>
+      </div>
+      <div id="correcto">
+        <div id="enhorabuena" class="ventana">
+            <p>¡Felicidades! Tu respuesta es correcta, vamos al siguiente nivel.</p>
+          <div id="cierre"> <a href="nivel2.html" class="cerrar iman">seguir</a></div>
+        </div>
+        <div id="mascara"></div>
+      </div>
+    <img src="../assets/background_fridge.jpeg" alt="nevera">
+    <div class="area_poema">
+       <span class="iman">verde</span><span class="iman">que</span><span  class="iman">te</span><span class="iman">quiero</span><span class="iman">verde</span><br><br><span class="iman">verde</span><span class="iman">viento</span><span class="iman">verdes</span><span class="iman">ramas</span><br><br><span class="iman">el</span> <span class="iman">barco</span><span class="iman">sobre</span><span class="iman">la</span><span class="iman">mar</span><br><br><span class="iman">y</span><span class="iman">el</span><span class="iman">caballo</span><span class="iman">en</span><span class="iman">la</span><div class="droparea" data-draggable-id="montana"></div>
+    </div>
+    <div class="opciones"><span class="iman draggable" draggable="true">casa</span><span class="iman draggable" draggable="true">ciudad</span><span class="iman draggable" draggable="true">carretera</span><span class="iman draggable" draggable="true">senda</span><span class="iman draggable" draggable="true">tierra</span><span class="iman draggable" draggable="true">campiña</span><span class="iman draggable" draggable="true">piedra</span><span class="iman draggable" draggable="true">mochila</span><span class="iman draggable" draggable="true">colina</span><span class="iman draggable" id="montana" draggable="true">montaña</span><span class="iman draggable" draggable="true">senda</span><span class="iman draggable" draggable="true">hierba</span><span class="iman draggable" draggable="true">fábrica</span></div>
+</body>
+</html>
